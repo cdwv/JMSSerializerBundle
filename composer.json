@@ -26,7 +26,8 @@
         "symfony/twig-bundle": "*",
         "doctrine/orm": "*",
         "symfony/form": "*",
-        "symfony/validator": "*"
+        "symfony/validator": "*",
+        "cdwv/serializer" : "dev-master"
     },
     "suggest": {
         "jms/di-extra-bundle": "Required to get lazy loading (de)serialization visitors, ~1.3"
