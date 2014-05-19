@@ -13,7 +13,6 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "cdwv/serializer": "~0.11",
         "symfony/framework-bundle": "~2.1"
     },
     "require-dev": {
@@ -41,5 +40,11 @@
         "branch-alias": {
             "dev-master": "0.13-dev"
         }
+    },
+    "repositories": [
+    {
+        "type":"vcs",
+        "url": "https://github.com/cdwv/serializer.git"
     }
+    ]
 }
